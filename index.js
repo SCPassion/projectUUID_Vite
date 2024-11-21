@@ -64,7 +64,7 @@ function handleTweetBtnClick(){
     if(tweetInput.value){
         tsD.unshift({
             handle: `@Scrimba`,
-            profilePic: `images/scrimbalogo.png`,
+            profilePic: `public/images/scrimbalogo.png`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
